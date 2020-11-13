@@ -1,44 +1,16 @@
+/* navbar title */
 #header-title {
     color: teal;
     font-family: Times, "Times New Roman", serif;
     font-size: 30px;
 }
 
+/* navbar positioning */
 #navPosition{
     position:relative;
 }
 
-.imagePadding{
-    
-    padding: 15px;
-    position: absolute;
-    
-    
-}
-
-
-
-
-/* #contact-form-box{
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    background-color: white;
-    position: relative;
-} */
-
-#background {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-color: teal;
-    position: absolute;
-    z-index: -1;
-}
-
-
-
+/* about text box attributes */
 .aboutText{
     width:80%;
     height:auto;
@@ -53,8 +25,23 @@
     position:relative
 }
 
+/* image attributes for portfolio page */
+.imagePadding{
+    padding: 15px;
+    position: absolute;
+}
 
+/* title on contact form */
+.contactHeader{
+    font-family: Times, "Times New Roman", serif;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 200px;
+    color: #78788c;
+    border-bottom: 2px solid #78788c
+}
 
+/* contact form attributes */
 .form{
     width:80%;
     height:440px;
@@ -68,40 +55,49 @@
     font-family:'Montserrat',sans-serif;
     position:relative
 }
-.contactHeader{
-    margin:10px 0;
-    padding-bottom:10px;
-    width:200px;
-    color:#78788c;
-    border-bottom:3px solid #78788c
-}
+
+/* user input sections on contact form */
 input{
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;outline:none;
-    resize:none;border:0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
     font-family:'Montserrat',sans-serif;
-    transition:all .3s;border-bottom:2px solid #bebed2;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
 }
+
+/* when clicking on section, change underline to dark grey */
 input:focus{
-    border-bottom:2px solid #78788c}
+    border-bottom: 2px solid #78788c
+}
 
+/* contact form subheader form titles (name, email, message) attributes */
 p:before{
-    content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a
 }
 
+/* submit button on contact form */
 button{
-    float:right;
-    padding:8px 12px;
-    margin:8px 0 0;
-    font-family:'Montserrat',sans-serif;
-    border:2px solid #78788c;
-    background:0;color:#5a5a6e;
-  
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: 'Montserrat',sans-serif;
+    border: 2px solid #78788c;
+    background:0;color: #5a5a6e;
 }
+
+/* changes attributes of submit button if mouse is hovered over it */
 button:hover{
-    background:#78788c;color:#fff
+    background: #78788c;
+    color:#fff
 }
 
 
