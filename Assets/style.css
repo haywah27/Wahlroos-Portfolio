@@ -8,6 +8,17 @@
     position:relative;
 }
 
+.imagePadding{
+    
+    padding: 15px;
+    position: absolute;
+    
+    
+}
+
+
+
+
 /* #contact-form-box{
     height: 200px;
     width: 200px;
@@ -25,6 +36,7 @@
     position: absolute;
     z-index: -1;
 }
+
 
 
 .aboutText{
@@ -106,7 +118,7 @@ button:hover{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  
+    
  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
