@@ -17,7 +17,7 @@
 
 /* about text box attributes */
 .aboutText{
-    width:60%;
+    width:80%;
     height:auto;
     margin-left: 50px;
     margin-top: 50px;
@@ -114,23 +114,29 @@ button:hover{
 }
 
 
-
-/* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 400px) { 
- 
- }
+    .imagePadding{
+        width: 330px; /* width of container */
+        height: 330px;
+    }
+  }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-   
-}
+  @media (min-width: 768px) { 
+    .imagePadding{
+        width: 225px; /* width of container */
+        height: 225px;
+  }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
- }
+  @media (min-width: 992px) { 
+    .imagePadding{
+        width: 225px; /* width of container */
+        height: 225px;
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-   
- }
+  }
+
+  @media (min-width: 1200px) {
+    .imagePadding{
+        width: 225px; /* width of container */
+        height: 225px;
+
+  }
