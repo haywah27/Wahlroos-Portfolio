@@ -10,25 +10,38 @@
     position:relative;
 }
 
+.nav-item{
+    font-family: Times, "Times New Roman", serif;
+    font-size: 20px;
+}
+
 /* about text box attributes */
 .aboutText{
-    width:80%;
+    width:60%;
     height:auto;
     margin-left: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    padding:20px 30px;max-width:calc(100vw - 40px);
+    padding:20px 35px;max-width:calc(100vw - 40px);
     box-sizing:border-box;
-    font-family:'Montserrat',sans-serif;
-    position:relative
+    font-family: Times, "Times New Roman", serif;
+    font-size: 18px;
+    position:relative;
 }
 
 /* image attributes for portfolio page */
 .imagePadding{
+    width: 225px; /* width of container */
+    height: 225px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%; 
+    /* border: 3px solid teal; */
+
     padding: 15px;
-    position: absolute;
+    position: relative;
 }
 
 /* title on contact form */
