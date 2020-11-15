@@ -122,11 +122,11 @@ button:hover{
   
 /* padding between footer and content */
 #content-wrap {
-    padding-bottom: 6rem; 
+    padding-bottom: 4rem; 
 }
   
 /* footer attributes */
-#footer {
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;

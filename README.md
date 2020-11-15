@@ -20,6 +20,7 @@ A web application highlighting three categories of a portfolio: an about section
 * editing navbar orientation to be uniform on all pages
 * adding footer
 * adding README.md
+* editing footer semantics
 
 
 
