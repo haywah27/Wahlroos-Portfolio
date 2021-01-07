@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    
     <title>About</title>
 </head>
 
@@ -38,21 +41,7 @@
             </nav> 
         
 
-            <!-- about section -->
-            <div class="aboutText">
-                <h2 class = "contactHeader">About</h2>
-                <p> Hi there! My name is Hayley and I love the sunshine. I graduated from the University of Oregon with a Bachelor of Art and Technology degree. I currently work for The Harver company, a lean concepts construction company, focussing on Division 10 installations (this division covers specialty products and materials for projects). I love to learn new things, especially skills that allow for innovative and creative experiences in the process. I'm a team-player with an outstanding track record of effectively assessing customer’s needs, demonstrating a strong work ethic, and excelling at prioritizing projects to achieve maximum customer satisfaction. I hope to one day grow up to be a wave chasing surfer bum! </p>
-            </div>
-            
-
-            <!-- footer -->
-            <footer class="py-4 bg-dark text-white-50">
-                <div class="container text-center">
-                <small>Links to Profiles Here</small>
-                <a target="_blank" href="https://github.com/haywah27" class="badge badge-pill badge-light">GitHub</a>
-                <a target="_blank" href="https://www.linkedin.com/in/wahlroos/" class="badge badge-pill badge-light">LinkedIn</a>
-                </div>
-            </footer>
+ 
 
             <!-- script for interactive nav bar -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -61,6 +50,71 @@
             
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         </div>
+    
+
+
+    <div class="tile is-ancestor">
+      <!-- Links to profiles -->
+        <div class="tile is-parent marginLeft">
+          <article class="tile is-child notification is-danger">
+            <p class="title contactHeader">Find Me Here</p>
+            <div class="content">
+              <a target="_blank" href="https://www.linkedin.com/in/wahlroos/">LinkedIn</a>
+              <br>
+              <a target="_blank" href="https://github.com/haywah27">GitHub</a>
+            </div>
+          </article>
+        </div>
+    
+      <!-- about section -->
+        <div class="tile is-6 is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title contactHeader">About</p>
+            <p class="subtitle">Hi there! My name is Hayley and I love the sunshine. I graduated from the University of Oregon with a Bachelor of Art and Technology degree. I currently work for The Harver company, a lean concepts construction company, focussing on Division 10 installations (this division covers specialty products and materials for projects). I love to learn new things, especially skills that allow for innovative and creative experiences in the process. I'm a team-player with an outstanding track record of effectively assessing customer’s needs, demonstrating a strong work ethic, and excelling at prioritizing projects to achieve maximum customer satisfaction. I hope to one day grow up to be a wave chasing surfer bum!</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </article>
+        </div>
+     
+
+      <!-- empty to center main content -->
+     
+        <div class="tile is-parent marginRight">
+          <article class="tile is-child notification is-danger">
+            <p class="title contactHeader">Random Thoughts</p>
+            <div class="content">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active carouselMargin">
+                    <div class="img-text">"oh baby what a wild world"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/1.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"my darling love"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/2.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"don't be dumb"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/3.png" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      
+      
     </div>
+  </div>
+
 </body>
 </html>
