@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
 
     
     <title>About</title>
 </head>
 
 <!-- background color -->
-<body style="background-color:teal";>
+<body style="background-color:#435764";>
     <div id="page-container">
         <div id="content-wrap">
             <nav  class="navbar navbar-expand-md bg-light navbar-light ">
@@ -53,36 +55,43 @@
     
 
 
-    <div class="tile is-ancestor">
+    <div class="tile is-ancestor marginCSS">
       <!-- Links to profiles -->
         <div class="tile is-parent marginLeft">
-          <article class="tile is-child notification is-danger">
+          <article class="tile is-child notification tileCSS">
             <p class="title contactHeader">Find Me Here</p>
             <div class="content">
-              <a target="_blank" href="https://www.linkedin.com/in/wahlroos/">LinkedIn</a>
-              <br>
-              <a target="_blank" href="https://github.com/haywah27">GitHub</a>
+              <div class="buttons">
+                <a class="button is-medium is-linkedin " style="width: 50px;" class="links" target="_blank" href="https://github.com/haywah27">
+                  <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+                <a class="button is-medium is-github" style="width: 50px;" target="_blank" href="https://github.com/haywah27">
+                  <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a class="button is-medium is-github mailButton" style="width: 50px;" href="./contact.html">
+                  <i class="fab fas fa-envelope fa-lg"></i>
+                </a>
+                <!-- class="fas fa-envelope" -->
+              </div>
             </div>
           </article>
         </div>
     
       <!-- about section -->
         <div class="tile is-6 is-parent">
-          <article class="tile is-child notification is-danger">
-            <p class="title contactHeader">About</p>
-            <p class="subtitle">Hi there! My name is Hayley and I love the sunshine. I graduated from the University of Oregon with a Bachelor of Art and Technology degree. I currently work for The Harver company, a lean concepts construction company, focussing on Division 10 installations (this division covers specialty products and materials for projects). I love to learn new things, especially skills that allow for innovative and creative experiences in the process. I'm a team-player with an outstanding track record of effectively assessing customer’s needs, demonstrating a strong work ethic, and excelling at prioritizing projects to achieve maximum customer satisfaction. I hope to one day grow up to be a wave chasing surfer bum!</p>
+          <article class="tile is-child notification tileCSS">
+            <p class="title contactHeader">About Hayley</p>
+            <p class="content aboutText2">Hi there! My name is Hayley and I love the sunshine. I graduated from the University of Oregon with a Bachelor of Art and Technology degree. I currently work for The Harver company, a lean concepts construction company, focussing on Division 10 installations. <br><br> I love to learn new things, especially skills that allow for innovative and creative experiences in the process. I'm a team-player with an outstanding track record of effectively assessing customer’s needs, demonstrating a strong work ethic, and excelling at prioritizing projects to achieve maximum customer satisfaction. <br><br>Reach out if you'd like, I'm open to questions and conversation!</p>
             <div class="content">
               <!-- Content -->
             </div>
           </article>
         </div>
-     
 
-      <!-- empty to center main content -->
      
         <div class="tile is-parent marginRight">
-          <article class="tile is-child notification is-danger">
-            <p class="title contactHeader">Random Thoughts</p>
+          <article class="tile is-child notification tileCSS">
+            <p class="title contactHeader">Doodles</p>
             <div class="content">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -97,6 +106,110 @@
                   <div class="carousel-item">
                     <div class="img-text">"don't be dumb"</div>
                     <img class="d-block w-100" src="./Assets/thoughts/3.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"chill"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/4.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"see the good"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/5.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"just do your best"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/6.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"I'm hopeless"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/7.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"I want to be her safe place"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/8.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"fly me home"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/9.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"I want to tell her everything"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/10.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"we're fucked"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/11.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"bad news babe"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/12.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"nothing and everything"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/13.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"I smiled back"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/14.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"fuck feelings"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/15.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"where is my mind?"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/16.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"it's okay to be seen"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/17.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"let loose as you need"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/18.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"no rain, no flowers"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/19.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"seek with your eyes open"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/20.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"why are you so drunk?<br>because I love you..."</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/21.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"charm and adventure"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/22.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"grass: the carpet of the outdoors"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/23.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"dip. swerve. spiral"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/24.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"we are the tide"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/25.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"who's looking back at you?"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/26.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"we challenge the people we love"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/27.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"hang in there"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/28.png" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-text">"experience, don't explain"</div>
+                    <img class="d-block w-100" src="./Assets/thoughts/29.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -118,3 +231,6 @@
 
 </body>
 </html>
+
+
+

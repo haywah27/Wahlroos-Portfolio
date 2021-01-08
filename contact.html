@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
     <title>Contact</title>
 </head>
 
 <!-- background color -->
-<body style="background-color:teal";>
+<body style="background-color:#435764";>
     <div id="page-container">
         <div id="content-wrap">
             <nav  class="navbar navbar-expand-md bg-light navbar-light ">
@@ -38,23 +41,51 @@
             </nav> 
 
             <!-- contact form -->   
-            <form class="form">
-                <h2 class = "contactHeader">Contact</h2>
-                <p type="Name:"><input ></input></p>
-                <p type="Email:"><input ></input></p>
-                <p type="Message:"><input ></input></p>
-                <button>Send Message</button>
+            <form class="card cardCSS">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="What's your name?">
+                </div>
+              </div>
+              <br>
+              <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Anything specific?">
+                </div>
+              </div>
+              <br>
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="Ex: name@website.com">
+                </div>
+              </div>
+              <br>
+             
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="What's up?"></textarea>
+                </div>
+              </div>
+              <br>
+              
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link submitButton is-medium">Submit</button>
+                </div>
+                <br>
+                <div class="control">
+                  <button class="button is-link cancelButton is-medium">Cancel</button>
+                </div>
+                
+              </div>
             </form>
 
 
-            <!-- footer -->
-            <footer class="py-4 bg-dark text-white-50">
-                <div class="container text-center">
-                <small>Links to Profiles Here</small>
-                <a target="_blank" href="https://github.com/haywah27" class="badge badge-pill badge-light">GitHub</a>
-                <a target="_blank" href="https://www.linkedin.com/in/wahlroos/" class="badge badge-pill badge-light">LinkedIn</a>
-                </div>
-            </footer>
+          
                 
             <!-- script for interactive nav bar -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
