@@ -7,15 +7,15 @@ html, body{
 }
 
 /* background fill to edges */
-#page-container {	    
+/* #page-container {	    
     position: relative;	    
     min-height: 100vh!important;	
-}	
+}	 */
 
 /* background fill to edges */
-#content-wrap{
+/* #content-wrap{
     padding-bottom: 1.5rem!;
-}
+} */
 
 /* navbar title */
 #header-title {
