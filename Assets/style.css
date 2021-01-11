@@ -1,6 +1,18 @@
 html, body{
     font-family: 'Quicksand', sans-serif!important;
 }
+
+background fill to edges
+#page-container {	    
+    position: relative;	    
+    min-height: 100vh;	
+}	
+
+/* background fill to edges */
+#content-wrap{
+    padding-bottom: 1.5rem;
+}
+
 /* navbar title */
 #header-title {
     margin-top: 8px;
@@ -8,6 +20,8 @@ html, body{
     color: #435764;
     font-size: 45px;
 }
+
+/* email and phone number */
 #infoTitle{
     margin: 20px;
     font-size: 16px;
@@ -188,3 +202,5 @@ input:focus, textarea:focus {
 }
 
 
+
+    
