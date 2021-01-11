@@ -5,7 +5,7 @@ html, body{
 #header-title {
     color: #435764;
     /* font-family: Times, "Times New Roman", serif; */
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* navbar positioning */
@@ -67,7 +67,7 @@ a:hover{
 /* about text box attributes */
 .aboutText{
     /* height:auto; */
-    margin: 50px;
+    margin: 10px!important;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px black;
@@ -76,6 +76,7 @@ a:hover{
     /* font-family: Times, "Times New Roman", serif; */
     font-size: 18px;
     position:relative;
+    
 }
 
 /* image attributes for portfolio page */
@@ -90,11 +91,31 @@ a:hover{
     position: relative;
 }
 
+.coverImg{
+    width: 100%!important;
+    height: 175px!important;
+    position: relative!important;
+    object-fit: cover!important;
+    /* display:inline-block!important; */
+}
+
+.poop{
+   display: inline-block!important;
+    border-radius: 10px!important;
+    width: 225px!important;
+}
+.buttonGitCSS{
+    border-radius: 15px!important;
+    margin: 5px!important;
+    width: 100px!important;
+    text-align: start;
+    display:inline-block;
+}
+
 /* title on contact form */
 .contactHeader{
     padding-bottom: 10px;
     border-bottom: 2px solid #78788c;
-    
 }
 
 .img-text{
