@@ -46,10 +46,12 @@ html, body{
 
 /* about me mail button */
 .mailButton{
+    color: white!important;
     background-color: #8D9C8C!important;
 }
 
 .resumeButton{
+    color: white!important;
     background-color: #8C6174!important;
 }
 
@@ -154,7 +156,8 @@ a#header-title:hover{
 
 /* changes color of find me buttons if mouse hovered */
 a.findMeButton:hover{
-    color: #BE7883!important;
+    color: #615E5D!important;
+    opacity: 80%;
 }
 
 /* changes outline color on input boxes if selected */
@@ -183,3 +186,5 @@ input:focus, textarea:focus {
 .portfolioCard:hover .imgText {
     visibility:visible;
 }
+
+
