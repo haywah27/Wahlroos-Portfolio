@@ -3,8 +3,14 @@ html, body{
 }
 /* navbar title */
 #header-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
     color: #435764;
-    font-size: 40px;
+    font-size: 45px;
+}
+#infoTitle{
+    margin: 20px;
+    font-size: 16px;
 }
 
 /* navbar positioning */
@@ -139,7 +145,7 @@ a.nav-link:hover{
 /* changes color of name if mouse hovered */
 a#header-title:hover{
     color:#BE7883!important;
-    font-size: 41px;
+    font-size: 46px;
 }
 
 /* changes color of find me buttons if mouse hovered */
