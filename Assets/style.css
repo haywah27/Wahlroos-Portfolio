@@ -1,16 +1,20 @@
 html, body{
     font-family: 'Quicksand', sans-serif!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-background fill to edges
+/* background fill to edges */
 #page-container {	    
     position: relative;	    
-    min-height: 100vh;	
+    min-height: 100vh!important;	
 }	
 
 /* background fill to edges */
 #content-wrap{
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem!;
 }
 
 /* navbar title */
