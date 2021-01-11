@@ -49,6 +49,10 @@ html, body{
     background-color: #8D9C8C!important;
 }
 
+.resumeButton{
+    background-color: #8C6174!important;
+}
+
 /* about me doodle image attributes */
 .img-text{
     text-align: center;
