@@ -41,6 +41,14 @@ html, body{
     font-size: 20px;
 }
 
+/* about card container */
+.aboutContainer{
+    margin: 1rem!important;
+    padding: 1rem!important;
+    border-radius: 20px!important;
+    padding-bottom: 3rem!important;
+}
+
 /* about me tile margin */
 .marginCSS{
     margin: 1rem!important;
