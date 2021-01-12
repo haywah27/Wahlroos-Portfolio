@@ -96,13 +96,20 @@ html, body{
     
 }
 
+/* card container div */
+.cardContainer{
+    margin: 2rem!important;
+    padding: 1rem!important;
+    border-radius: 20px!important;
+    padding-bottom: 3rem!important; 
+}
+
 /* card attributes */
 .cardCSS{
-    margin: 2rem!important;
+    margin: 1rem!important;
     padding: 2rem!important;
     border-radius: 20px!important;
     box-shadow:0 0 40px -10px black!important;
-    margin-bottom: 100px!important;
 }
 
 /* contact submit button */
@@ -115,8 +122,14 @@ html, body{
     background-color: #C98380!important;
 }
 
+.portfolioContainer {
+    margin: 1rem!important;
+    padding: 1rem!important;
+    border-radius: 20px!important;
+    padding-bottom: 3rem!important; 
+}
 /* portfolio containter attributes */
-.portfolioContainer{
+.portfolioMainCard{
     margin: 2rem!important;
     background:#e6e6e6;
     border-radius:8px;
