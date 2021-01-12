@@ -1,11 +1,10 @@
 html, body{
     font-family: 'Quicksand', sans-serif!important;
     width: 100vw!important;
-    height: 100vh!important;
-    /* max-width: 100%; */
- 
+    height: 100vh!important; 
 }
 
+/* headshot attributes */
 .headshotCSS{
     height: 100px!important;
     width: 100px!important;
@@ -15,15 +14,8 @@ html, body{
 /* background fill to edges */
 #page-container {	    
     position: relative;	 
-    /* margin-bottom: 20px;	 */
     background-color: #435764!important; 
 }	
-
-/* background fill to edges */
-/* #content-wrap{
-    position: absolute;
-    /* padding-bottom: 1.5rem!; */
-/* } */
 
 /* navbar title */
 #header-title {
@@ -52,8 +44,6 @@ html, body{
 /* about me tile margin */
 .marginCSS{
     margin: 1rem!important;
-    /* background-color: #435764!important;   */
-    
 }
 
 /* about me tile attributes */
@@ -62,7 +52,6 @@ html, body{
     background-color: #E6E6E6!important;
     border-radius: 20px!important;
     box-shadow: 0 0 40px -10px black!important;
-    
 }
 
 /* about me link buttons */
@@ -92,8 +81,7 @@ html, body{
 
 /* about me section */
 .aboutSection{
-    font-size: 18px!important;
-    
+    font-size: 18px!important; 
 }
 
 /* card container div */
@@ -211,8 +199,7 @@ input:focus, textarea:focus {
     box-shadow: 0 0 10px #A0B19F!important;;
 }
 
-
-
+/* title attriubutes for hover on portfolio images */
 .portfolioCard .imgText {
     position: absolute;
     top: 50%;
@@ -226,21 +213,18 @@ input:focus, textarea:focus {
     visibility:hidden;
     text-align: center;
 }
-    
+ 
+/* allow title to appear on hover */
 .portfolioCard:hover .imgText {
     visibility:visible;
 }
 
-
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-    #page-container {
-      height: 1024px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    html, body {
-      height: 300vh!important;
-    }
-  }
+/* media query for mobile view */
+@media only screen and (max-width: 600px) {
+html, body {
+    height: 300vh!important;
+}
+.buttonGitCSS {
+    width: 93px!important;
+}
+}
