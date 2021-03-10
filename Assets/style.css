@@ -221,6 +221,20 @@ input:focus, textarea:focus {
     visibility:hidden;
     text-align: center;
 }
+
+.imgTextLight {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 25px!important;
+    font-weight: 600!important;
+    color: white!important;
+    text-shadow: 2px 2px 4px #10B981!important;
+    visibility:hidden;
+    text-align: center; 
+}
  
 /* allow title to appear on hover */
 .portfolioCard:hover .imgText {
