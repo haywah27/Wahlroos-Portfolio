@@ -1,252 +1,277 @@
-html, body{
-    font-family: 'Quicksand', sans-serif!important;
-    width: 100vw!important;
-    height: 100vh!important; 
+html,
+body {
+  font-family: "Quicksand", sans-serif !important;
+  width: 100vw !important;
+  height: 100vh !important;
 }
 
 /* headshot attributes */
-.headshotCSS{
-    height: 100px!important;
-    width: 100px!important;
-    margin-bottom: 5px;
+.headshotCSS {
+  height: 100px !important;
+  width: 100px !important;
+  margin-bottom: 5px;
 }
 
 /* background fill to edges */
-#page-container {	    
-    position: relative;	 
-    background-color: #435764!important; 
-}	
+#page-container {
+  position: relative;
+  background-color: #435764 !important;
+}
+
+/* new portfolio message */
+.new-profile-message {
+  background-color: #d94141 !important;
+  font-size: 30px;
+  color: white !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* new portfolio link */
+.new-profile-link {
+  color: #0D6493!important;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 35px;
+}
 
 /* navbar title */
 #header-title {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    color: #435764;
-    font-size: 45px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #435764;
+  font-size: 45px;
 }
 
 /* email and phone number */
-#infoTitle{
-    margin: 25px;
-    font-size: 16px;
+#infoTitle {
+  margin: 25px;
+  font-size: 16px;
 }
 
 /* navbar positioning */
-#navPosition{
-    position:relative;
+#navPosition {
+  position: relative;
 }
 
 /* navbar page titles */
-.nav-item{
-    font-size: 20px;
+.nav-item {
+  font-size: 20px;
 }
 
 /* about card container */
-.aboutContainer{
-    margin: 1rem!important;
-    padding: 1rem!important;
-    border-radius: 20px!important;
-    padding-bottom: 3rem!important;
+.aboutContainer {
+  margin: 1rem !important;
+  padding: 1rem !important;
+  border-radius: 20px !important;
+  padding-bottom: 3rem !important;
 }
 
 /* about me tile margin */
-.marginCSS{
-    margin: 1rem!important;
+.marginCSS {
+  margin: 1rem !important;
 }
 
 /* about me tile attributes */
-.tileCSS{
-    color:#595959!important;
-    background-color: #E6E6E6!important;
-    border-radius: 20px!important;
-    box-shadow: 0 0 40px -10px black!important;
+.tileCSS {
+  color: #595959 !important;
+  background-color: #e6e6e6 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 40px -10px black !important;
 }
 
 /* about me link buttons */
-.buttonGitCSS{
-    border-radius: 15px!important;
-    margin: 5px!important;
-    width: 100px!important;
-    display: inline-block;
+.buttonGitCSS {
+  border-radius: 15px !important;
+  margin: 5px !important;
+  width: 100px !important;
+  display: inline-block;
 }
 
 /* about me mail button */
-.mailButton{
-    color: white!important;
-    background-color: #8D9C8C!important;
+.mailButton {
+  color: white !important;
+  background-color: #8d9c8c !important;
 }
 
-.resumeButton{
-    color: white!important;
-    background-color: #8C6174!important;
+.resumeButton {
+  color: white !important;
+  background-color: #8c6174 !important;
 }
 
 /* about me doodle image attributes */
-.img-text{
-    text-align: center;
-    margin-bottom: 10px!important;
+.img-text {
+  text-align: center;
+  margin-bottom: 10px !important;
 }
 
 /* about me section */
-.aboutSection{
-    font-size: 18px!important; 
+.aboutSection {
+  font-size: 18px !important;
 }
 
 /* card container div */
-.cardContainer{
-    margin: 2rem!important;
-    padding: 1rem!important;
-    border-radius: 20px!important;
-    padding-bottom: 3rem!important; 
+.cardContainer {
+  margin: 2rem !important;
+  padding: 1rem !important;
+  border-radius: 20px !important;
+  padding-bottom: 3rem !important;
 }
 
 /* card attributes */
-.cardCSS{
-    margin: 1rem!important;
-    padding: 2rem!important;
-    border-radius: 20px!important;
-    box-shadow:0 0 40px -10px black!important;
+.cardCSS {
+  margin: 1rem !important;
+  padding: 2rem !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 40px -10px black !important;
 }
 
 /* contact submit button */
-.submitButton{
-    background-color: #A0B19F!important;
+.submitButton {
+  background-color: #a0b19f !important;
 }
 
 /* contact cancel button */
-.cancelButton{
-    background-color: #C98380!important;
+.cancelButton {
+  background-color: #c98380 !important;
 }
 
 .portfolioContainer {
-    margin: 1rem!important;
-    padding: 1rem!important;
-    border-radius: 20px!important;
-    padding-bottom: 3rem!important; 
+  margin: 1rem !important;
+  padding: 1rem !important;
+  border-radius: 20px !important;
+  padding-bottom: 3rem !important;
 }
 /* portfolio containter attributes */
-.portfolioMainCard{
-    margin: 2rem!important;
-    background:#e6e6e6;
-    border-radius:8px;
-    box-shadow:0 0 40px -10px black;
-    padding: 35px;
-    box-sizing:border-box;
-    font-size: 18px;
-    position:relative;
+.portfolioMainCard {
+  margin: 2rem !important;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px black;
+  padding: 35px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: relative;
 }
 
 /* portfolio image attributes */
-.coverImg{
-    width: 100%!important;
-    height: 175px!important;
-    position: relative!important;
-    object-fit: cover!important;
+.coverImg {
+  width: 100% !important;
+  height: 175px !important;
+  position: relative !important;
+  object-fit: cover !important;
 }
 
 /* portfolio card attributes */
-.portfolioCard{
-    display: inline-block!important;
-    border-radius: 15px!important;
-    width: 225px!important;
-    margin: 5px;
-    background-color: #E0E3DA!important;
+.portfolioCard {
+  display: inline-block !important;
+  border-radius: 15px !important;
+  width: 225px !important;
+  margin: 5px;
+  background-color: #e0e3da !important;
 }
 
 /* title on contact form */
-.sectionHeader{
-    padding-bottom: 10px;
-    border-bottom: 2px solid #78788c;
+.sectionHeader {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #78788c;
 }
 
 /* submit button on contact form */
-.button{
-    float: right;
-    padding: 8px 12px;
-    margin: 8px 0 0;
-    border: 2px solid #78788c;
-    background:0;color: #5a5a6e;
-    text-decoration: none!important;
+.button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  text-decoration: none !important;
 }
 
 /* changes button color on portfolio cards */
-a.buttonGitCSS:hover{
-    background-color: #435764;
-    color: white;
+a.buttonGitCSS:hover {
+  background-color: #435764;
+  color: white;
 }
 
 /* changes attributes of contact form buttons if mouse is hovered over it */
-button:hover{
-    background: #78788c;
-    color:#fff;
-    opacity: 0.7;
+button:hover {
+  background: #78788c;
+  color: #fff;
+  opacity: 0.7;
 }
 
 /* changes color of link if mouse hovered */
-a.nav-link:hover{
-    color: #BE7883!important;
-    font-size: 21px;
+a.nav-link:hover {
+  color: #be7883 !important;
+  font-size: 21px;
 }
 
 /* changes color of name if mouse hovered */
-a#header-title:hover{
-    color:#BE7883!important;
-    font-size: 46px;
+a#header-title:hover {
+  color: #be7883 !important;
+  font-size: 46px;
 }
 
 /* changes color of find me buttons if mouse hovered */
-a.findMeButton:hover{
-    color: #615E5D!important;
-    opacity: 80%;
+a.findMeButton:hover {
+  color: #615e5d !important;
+  opacity: 80%;
 }
 
 /* changes outline color on input boxes if selected */
-input:focus, textarea:focus { 
-    outline: none !important;
-    border-color: #A0B19F!important;
-    box-shadow: 0 0 10px #A0B19F!important;;
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #a0b19f !important;
+  box-shadow: 0 0 10px #a0b19f !important;
 }
 
 /* title attriubutes for hover on portfolio images */
 .portfolioCard .imgText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-size: 25px!important;
-    font-weight: 600!important;
-    color: #435764;
-    text-shadow: 2px 2px 4px white;
-    visibility:hidden;
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  color: #435764;
+  text-shadow: 2px 2px 4px white;
+  visibility: hidden;
+  text-align: center;
 }
 
 .imgTextLight {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-size: 25px!important;
-    font-weight: 600!important;
-    color: white!important;
-    text-shadow: 2px 2px 4px #10B981!important;
-    visibility:hidden;
-    text-align: center; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  text-shadow: 2px 2px 4px #10b981 !important;
+  visibility: hidden;
+  text-align: center;
 }
- 
+
 /* allow title to appear on hover */
 .portfolioCard:hover .imgText {
-    visibility:visible;
+  visibility: visible;
+}
+
+.new-profile-link:hover{
+    color:#0dcaf1!important;
 }
 
 /* media query for mobile view */
 @media only screen and (max-width: 600px) {
-html, body {
-    height: 300vh!important;
-}
-.buttonGitCSS {
-    width: 93px!important;
-}
+  html,
+  body {
+    height: 300vh !important;
+  }
+  .buttonGitCSS {
+    width: 93px !important;
+  }
 }
