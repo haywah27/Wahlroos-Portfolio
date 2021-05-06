@@ -4,6 +4,5 @@ A web application highlighting three categories of a portfolio: an about section
 # Deployed Portfolio
 https://haywah27.github.io/Wahlroos-Portfolio/
 
-
 ## Deployed Portfolio Website Image
 <img src="./Assets/images/portfolio-demo.gif" alt="demo">
